@@ -1,0 +1,20 @@
+{
+  "name": "webpack4",
+  "version": "1.0.0",
+  "description": "Full webpack-4 project template with folder structure and webpack.config.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:inline": "webpack --mode development",
+    "build": "webpack"
+  },
+  "keywords": [
+    "webpack4"
+  ],
+  "author": "@Mansoldev",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0"
+  }
+}
