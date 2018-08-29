@@ -28,6 +28,7 @@ const config = {
     plugins: [
         new ExtractTextPlugin("css/[name].css")
     ]
+    //watch: true habilita los cambios en caliente
 }
 
 module.exports = config
